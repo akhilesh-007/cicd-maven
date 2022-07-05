@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("git checkout")
+        stage("1. git checkout")
         {
             steps{
                     git 'https://github.com/akhilesh-007/cicd-maven.git'
